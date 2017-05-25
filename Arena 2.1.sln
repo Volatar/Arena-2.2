@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arena 2.0", "Arena 2.0\Arena 2.0.vcproj", "{26F89CEC-FF17-4E20-9599-8013B16614BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F89CEC-FF17-4E20-9599-8013B16614BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26F89CEC-FF17-4E20-9599-8013B16614BF}.Debug|Win32.Build.0 = Debug|Win32
+		{26F89CEC-FF17-4E20-9599-8013B16614BF}.Release|Win32.ActiveCfg = Release|Win32
+		{26F89CEC-FF17-4E20-9599-8013B16614BF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

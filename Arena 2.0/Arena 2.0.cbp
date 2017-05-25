@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Arena 2.1" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc8" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Arena 2.0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Win32" />
+				<Option type="0" />
+				<Option compiler="msvc8" />
+				<Compiler>
+					<Add option="/W3" />
+					<Add option="/ZI" />
+					<Add option="/Od" />
+					<Add option="/MDd" />
+				</Compiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Arena 2.0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Win32" />
+				<Option type="0" />
+				<Option compiler="msvc8" />
+				<Compiler>
+					<Add option="/W3" />
+					<Add option="/Zi" />
+					<Add option="/O2" />
+					<Add option="/MD" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="arena.cpp" />
+		<Unit filename="equip.h" />
+		<Unit filename="fight.h" />
+		<Unit filename="options.h" />
+		<Unit filename="saveload.h" />
+		<Unit filename="store.h" />
+		<Unit filename="structure.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
